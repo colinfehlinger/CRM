@@ -1,4 +1,4 @@
-# The workflow starts with a Realtor's paper sign-in sheet at the event and ends with automated emails being sent to the stored leads.
+# The workflow starts with a Realtor's sign-in sheet at an event and ends with automated emails being sent to the stored leads.
 
 ```mermaid
 flowchart LR
