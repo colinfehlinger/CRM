@@ -1,11 +1,11 @@
-# OCR Flow: Screenshot → S3 → Textract → DynamoDB → SES (Minimal)
+# OCR Flow: Screenshot → S3 → Textract → DynamoDB → SES
 
 ```mermaid
 flowchart LR
-    U[Clipboard screenshot] -->|"PUT"| S3[S3 bucket]
-    S3 -->|"ObjectCreated"| L[Lambda: OCR Handler]
-    L -->|"DetectDocumentText"| TX[Textract]
-    TX -->|"text blocks"| L
-    L -->|"write from parsed data"| D[(DynamoDB: Leads)]
-    L -->|"compose from parsed data"| SES[SES: Email]
+    U[Clipboard screenshot] -->|"Upload"| S3[S3 bucket]
+    S3 -->|"Object Created"| L[Lambda: OCR Handler]
+    L -->|"Detect Document Text"| TX[Textract]
+    TX -->|"Text Blocks"| L
+    L -->|"Write From Parsed Data"| D[(DynamoDB: Lead Database)]
+    L -->|"Compose From Parsed Data"| SES[SES: Automated Emailing]
 
