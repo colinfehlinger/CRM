@@ -1,4 +1,4 @@
-Realtor OCR Flow — Minimal
+Automated Realtor CRM Workflow 
 
 Demonstrating the follwing workflow **Screenshot → S3 → Textract → DynamoDB → SES**.
 
