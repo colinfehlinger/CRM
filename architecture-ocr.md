@@ -6,6 +6,6 @@ flowchart LR
     S3 -->|"ObjectCreated"| L[Lambda: OCR Handler]
     L -->|"DetectDocumentText"| TX[Textract]
     TX -->|"text blocks"| L
-    L -->|"write"| D[(DynamoDB: Leads)]
+    L -->|"write from parsed data"| D[(DynamoDB: Leads)]
     L -->|"compose from parsed data"| SES[SES: Email]
 
