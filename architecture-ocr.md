@@ -2,7 +2,7 @@
 
 ```mermaid
 flowchart LR
-    U[Screenshot of Clipboard at Open House] -->|"Upload"| S3[S3 Bucket]
+    U[Screenshot of Clipboard at Realtor's Open House] -->|"Upload"| S3[S3 Bucket]
     S3 -->|"Object Created"| L[Lambda]
     L -->|"Detect Document Text"| TX[Textract: Converting Image to Text]
     TX -->|"Text Blocks"| L
