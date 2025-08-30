@@ -1,4 +1,4 @@
-#Workflow: Screenshot → S3 → Textract → DynamoDB → SES
+# Workflow: Screenshot → S3 → Textract → DynamoDB → SES
 
 ```mermaid
 flowchart LR
