@@ -2,8 +2,10 @@
 
 ```mermaid
 flowchart LR
-    Realtor[Clipboard screenshot] -->|"PUT (pre-signed)"| S3[S3 bucket]
-    S3 -->|"ObjectCreated event"| L[Lambda: OCR Handler]
-    L -->|"DetectDocumentText"| T[Textract]
-    L --> D[(DynamoDB: Leads)]
-    L --> S[SES: Email]
+    U[Clipboard screenshot] -->|"PUT"| S3[S3 bucket]
+    S3 -->|"ObjectCreated"| L[Lambda: OCR Handler]
+    L -->|"DetectDocumentText"| TX[Textract]
+    TX -->|"text blocks"| L
+    L -->|"normalize + write"| D[(DynamoDB: Leads)]
+    L -->|"compose from parsed data"| SES[SES: Email]
+
