@@ -1,4 +1,4 @@
-# Workflow: Screenshot → S3 → Textract → DynamoDB → SES
+# The workflow starts with a Realtor's paper sign-in sheet at the event and ends with automated emails being sent to the stored leads.
 
 ```mermaid
 flowchart LR
