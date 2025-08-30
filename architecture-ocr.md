@@ -2,7 +2,7 @@
 
 ```mermaid
 flowchart LR
-    U[Clipboard screenshot] -->|"Upload"| S3[S3 bucket]
+    U[Clipboard Screenshot] -->|"Upload"| S3[S3 Bucket]
     S3 -->|"Object Created"| L[Lambda: OCR Handler]
     L -->|"Detect Document Text"| TX[Textract: Converting Image to Text]
     TX -->|"Text Blocks"| L
