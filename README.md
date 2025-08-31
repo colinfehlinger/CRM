@@ -18,7 +18,7 @@ See [`s3Object.png`](s3Object.png)
 See [`DynamoDatabase.png`](DynamoDatabase.png).
 *Rows written with **Name**, **Email**, **Phone**, and metadata from the image.*
 
-### SES templates (Automatically Emailing Leads in the Database)
+### SES templates (Automatically Emailing the Leads)
 See [`SesTemplates.png`](SesTemplates.png).
 *Email templates defined in SES (Day0/Day2/Day5/Day30).*
 
