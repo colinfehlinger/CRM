@@ -1,4 +1,4 @@
-# Automates the open-house follow-up workflow for a Berkshire Hathaway HomeServices Fox & Roach REALTORS® agent.
+# My application automates the open-house follow-up workflow for a Berkshire Hathaway HomeServices Fox & Roach REALTORS® agent.
 ### Upload a photo of a paper event sign-in sheet → automatically extracts names/emails/phone numbers → stores leads → sends scheduled follow-up emails (Day 0/2/5/30).
 
 ## Visual of the Architecture
