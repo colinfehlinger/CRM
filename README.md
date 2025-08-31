@@ -15,11 +15,11 @@ See [`damecrmtest.jpeg`](damecrmtest.jpeg).
 See [`s3Object.png`](s3Object.png)
 *Object uploaded to `uploads/` (triggers the ingest Lambda).*
 
-### DynamoDB (The Parsed Leads)
+### DynamoDB (The Parsed Leads Added to Customer Database)
 See [`DynamoDatabase.png`](DynamoDatabase.png).
 *Rows written with **Name**, **Email**, **Phone**, and metadata from the image.*
 
-### SES templates (Emailing the Database)
+### SES templates (Automatically Emailing Leads in the Database)
 See [`SesTemplates.png`](SesTemplates.png).
 *Email templates defined in SES (Day0/Day2/Day5/Day30).*
 
