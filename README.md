@@ -3,10 +3,10 @@
 
 ### Upload a photo of an open-house sign-in sheet → automatically reads names/emails/phone #s → stores leads → sends various follow-up emails throughout the month.
 
-## Architecture
+## Visual of the Architecture
 See [`architecture-ocr.md`](architecture-ocr.md).
 
-## Screenshots
+## Screenshots of Key Service Checkpoints
 
 ### Sample sign-in image used for testing
 (docs/img/sample-signin.jpeg)
