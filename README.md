@@ -11,18 +11,18 @@ See [`architecture-ocr.md`](architecture-ocr.md).
 ## Screenshots
 
 ### Sample sign-in image used for testing
-![Sample sign-in screenshot](docs/img/sample-signin.jpeg)
+(docs/img/sample-signin.jpeg)
 *This is the JPEG uploaded to S3 for the demo flow.*
 
 ### Upload → S3 (event source)
-![S3 uploads object](docs/img/s3-uploads-object.png)
+(s3Upload.png)
 *Object uploaded to `uploads/` (triggers the ingest Lambda).*
 
 ### Parsed leads in DynamoDB
-![DynamoDB Leads table](docs/img/dynamodb-leads.png)
+(docs/img/dynamodb-leads.png)
 *Rows written with **Name**, **Email**, **Phone**, and metadata from the image.*
 
 ### SES templates (follow-ups)
-![SES templates](docs/img/ses-templates.png)
+(docs/img/ses-templates.png)
 *Email templates defined in SES (e.g., Day0/Day2/Day5/Day30).*
 
