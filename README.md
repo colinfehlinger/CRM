@@ -4,7 +4,7 @@
 ## Visual of the Architecture
 See [`architecture-ocr.md`](architecture-ocr.md).
 
-## Screenshots of Key Service Checkpoints
+## Key Service Checkpoints
 
 ### Sample Sign-in Sheet Used for Testing
 See [`damecrmtest.jpeg`](damecrmtest.jpeg).
