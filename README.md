@@ -1,6 +1,5 @@
-# The goal of this repository is to show the workflow of the automated CRM application that I designed for a Realtor at Berkshire Hathaway HomeServices Fox & Roach REALTORS®.
-
-### Upload a photo of an open-house sign-in sheet → automatically parses names/emails/phone #s → stores leads → sends various follow-up emails throughout the month.
+# Automates the open-house follow-up workflow for a Berkshire Hathaway HomeServices Fox & Roach REALTORS® agent.
+### Upload a photo of a paper event sign-in sheet → automatically extracts names/emails/phone numbers → stores leads → sends scheduled follow-up emails (Day 0/2/5/30).
 
 ## Visual of the Architecture
 See [`architecture-ocr.md`](architecture-ocr.md).
