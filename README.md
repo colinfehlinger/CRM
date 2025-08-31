@@ -15,7 +15,7 @@ See [`architecture-ocr.md`](architecture-ocr.md).
 *This is the JPEG uploaded to S3 for the demo flow.*
 
 ### Upload → S3 (event source)
-(s3Upload.png)
+See [`s3Object.png`](s3Object.png)
 *Object uploaded to `uploads/` (triggers the ingest Lambda).*
 
 ### Parsed leads in DynamoDB
