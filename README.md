@@ -1,4 +1,4 @@
-# The goal of this repository is to demonstrate the workflow of the application that I designed for a Realtor at Berkshire Hathaway HomeServices Fox & Roach REALTORS®.
+# The goal of this repository is to show the workflow of the automated CRM application that I designed for a Realtor at Berkshire Hathaway HomeServices Fox & Roach REALTORS®.
 # Realtor Lead Capture (S3 → Textract → DynamoDB → SES)
 
 ### Upload a photo of an open-house sign-in sheet → automatically reads names/emails/phone #s → stores leads → sends various follow-up emails throughout the month.
