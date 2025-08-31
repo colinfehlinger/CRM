@@ -3,8 +3,6 @@
 
 ### Upload a photo of an open-house sign-in sheet → automatically reads names/emails/phone #s → stores leads → sends various follow-up emails throughout the month.
 
-**AWS:** S3 (events), Lambda (ingest), Textract (TABLES), DynamoDB (leads), SES (email).
-
 ## Architecture
 See [`architecture-ocr.md`](architecture-ocr.md).
 
