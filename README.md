@@ -1,4 +1,7 @@
 # My application automates the open-house follow-up workflow for a Berkshire Hathaway HomeServices Fox & Roach REALTORS® agent.
+**Who it's for:** solo agents & small broker teams  
+**Problem:** paper sign-in sheets → manual data entry → slow/forgotten follow-ups  
+**Outcome:** capture leads from a phone photo, auto-send day 0/2/5/30 emails, and track replies.
 ### Upload a photo of a paper event sign-in sheet → automatically extracts names/emails/phone numbers → stores leads → sends scheduled follow-up emails (Day 0/2/5/30).
 
 ## Visual of the Architecture
